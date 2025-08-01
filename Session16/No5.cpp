@@ -23,7 +23,7 @@ int main() {
     printf("Input SKS: ");
     scanf("%d", &student.sks);
 
-    printf("Input Grade (A-E): =");
+    printf("Input Grade (A-E): ");
     scanf(" %c", &student.grade);
 
 
