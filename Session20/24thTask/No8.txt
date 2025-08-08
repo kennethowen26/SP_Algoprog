@@ -1,0 +1,6 @@
+untuk mengetahui ukuran file, kita gunakan fseek() dan ftell() seperti pada code No5,6,7
+
+
+fseek(file, 0, SEEK_END); // fseek(..,SEEK_END) untuk memindahkan pointer ke akhir file
+    long size = ftell(file);  // ftell() untuk mengetahui ukuran file
+    printf("Ukuran file: %ld bytes\n", size);
