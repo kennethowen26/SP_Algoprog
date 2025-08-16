@@ -10,6 +10,22 @@ typedef struct {
     int durasi; 
 } Lagu;
 
+/*
+Pada material Review 2 saya membuat code yang memiliki 4 menu 
+yaitu : tambah lagu,tampilin semua lagu, cari lagu, dan urutkan lagu berdasarkan durasi(skenario unik) 
+Pada tambah lagu kita bisa menginput lagu,penyanyi dan durasi oleh karna itu bisa membuat skenario unik menampilkan lagu 
+berdasarkan durasi terpendek (ascending) 
+
+pada menu 1 : membuat input output kedalam file maupun langsung 
+pada menu 2 : menampilkan lagu 
+pada menu 3 : mencari lagu dengan linear search
+pada menu 4 : mengurutkan lagu berdasarkan durasi menggunakan bubble sort 
+pada setiap memilih menu menggunakan do-while untuk memilih menu
+
+
+
+*/
+
 void tambahLagu() {
     FILE *fp = fopen("lagu.txt", "a");
     if (!fp) {
@@ -126,4 +142,5 @@ int main() {
 
     return 0;
 }
+
 
